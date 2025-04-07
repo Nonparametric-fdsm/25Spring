@@ -196,7 +196,7 @@
 	Similar to Wilcox test, we also know the mean and variance of $S_N$ under null hypothesis. 
 	\begin{align*}
 		\mathbb{E} \left[ S_N \right] &= \frac{m(N+1)}{2} \\
-		Var \left[ S_N \right] &= \frac{mn (N+1)}{2}
+		Var \left[ S_N \right] &= \frac{mn (N+1)}{12}
 	\end{align*}
 	And the standardized statistic also asymptotically follow normal distribution. 
 	
@@ -230,11 +230,11 @@
 	Under null, $p = \frac{1}{4}$. The asymptotic distribution of $T$ is given by
 	\begin{align*}
 		\mathbb{E} \left[ T | H_0 \right] &= \frac{mn}{4} \\
-		Var \left[ T | H_0 \right] &= \frac{mn(N+4)}{48}
+		Var \left[ T | H_0 \right] &= \frac{mn(N+7)}{48}
 	\end{align*}
 	$T$ is asymptotically normal:
 	$$
-	\frac{4 \sqrt{3} \left( T - \frac{mn}{4} \right)}{\sqrt{mn(N+4)}} \rightarrow N \left(0, 1 \right)
+	\frac{4 \sqrt{3} \left( T - \frac{mn}{4} \right)}{\sqrt{mn(N+7)}} \rightarrow N \left(0, 1 \right)
 	$$
 
 	\section{Test of the Equality of k Independent Samples}
