@@ -327,7 +327,7 @@
 	\end{align}
 	The NM statistics will be either too large or too small. So what is the distribution of $NM$ under the null? Standardize the NM statistic, we get
 	$$
-	RVN = \frac{\sum_{i=1}^{n-1} \left[ rank \left( X_{(i)} \right) - rank \left( X_{(i+1)} \right) \right]^2}{\sum_{i=1}^{n} ( rank (X_{(i)}) - \underbrace{\frac{n+1}{2}}_{median \; rank} )^2} \xrightarrow{D} N(2, \frac{20}{5n+7})
+	RVN = \frac{\sum_{i=1}^{n-1} \left[ rank \left( X_{i} \right) - rank \left( X_{i+1} \right) \right]^2}{\sum_{i=1}^{n} ( rank (X_{i}) - \underbrace{\frac{n+1}{2}}_{median \; rank} )^2} \xrightarrow{D} N(2, \frac{20}{5n+7})
 	$$
 	
 	\section{Test of Goodness of Fit}
